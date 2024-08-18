@@ -1,0 +1,10 @@
+th.text-left {
+    font-size: larger;
+    font-weight: normal;
+    padding: 20px;
+}
+
+tr.border-b:hover{
+    cursor: pointer;
+    opacity: 60%;
+}

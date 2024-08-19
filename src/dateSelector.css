@@ -1,0 +1,74 @@
+.date-selector-div{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1E201E;
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid #1E201E;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    flex-grow:1;
+    font-size: larger;
+}
+
+.center-date-selection-div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.svg-hover:hover, .svg-hover-small-margin:hover{
+    cursor: pointer;
+    transform: scale(1.1); /* Scale up the icon on hover */
+    transition: transform 0.2s ease-in-out, stroke 0.2s ease-in-out;
+}
+
+.svg-hover {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.svg-hover-small-margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Modal Background */
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.rdp-root {
+    --rdp-accent-color: #2471a3;
+    background-color: #121212;
+    border: 1px solid #3f3f3f;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .react-day-picker {
+        width: 100%;
+        max-width: 90%;
+    }
+}
